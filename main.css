@@ -19,17 +19,17 @@ a {
   padding: 20px 0;
   text-align: center;
 }
-
+/*
 .header h1 {
   letter-spacing: 10px;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 10px;
-}
+}*/
 .header h3 {
   letter-spacing: 5px;
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .main {
   display: flex;
@@ -101,9 +101,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: fixed;
+
   justify-content: space-between;
-  width: 100%;
+
   background-color: #00baf0;
   background: linear-gradient(to right, #184d47, #609966);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
