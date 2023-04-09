@@ -35,12 +35,15 @@ a {
 .food-items {
   border-radius: 15px;
   max-width: 300px;
+  margin-top: 30px;
 }
 
+#kahvalti {
+  margin-top: 75px;
+}
 .food-items h1 {
   color: #251b37;
   text-align: center;
-  margin: 75px 0 10px 0;
 }
 
 .food-items img {
