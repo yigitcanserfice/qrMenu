@@ -40,7 +40,7 @@ a {
 .food-items h1 {
   color: #251b37;
   text-align: center;
-  margin: 20px 0;
+  margin: 75px 0 10px 0;
 }
 
 .food-items img {
@@ -95,6 +95,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
 
   justify-content: space-between;
 
@@ -203,7 +206,8 @@ body {
     padding: 0.5em 0;
     width: 100%;
     color: white;
-    background-color: #2eb872;
+    background-color: #1a3b2d;
+    opacity: 0.99;
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
