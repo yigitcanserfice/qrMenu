@@ -13,17 +13,16 @@ a {
   all: unset;
 }
 
-.header {
+.top-nav {
   background-color: #245953;
   color: #fff;
   padding: 20px 0;
   text-align: center;
 }
 
-.header h3 {
-  letter-spacing: 5px;
+.top-nav h3 {
+  letter-spacing: 3px;
   font-size: 22px;
-  font-weight: 500;
 }
 .main {
   display: flex;
@@ -41,6 +40,7 @@ a {
   color: #251b37;
   text-align: center;
   margin: 50px 0 10px 0;
+  border-bottom: 1px solid rgba(111, 111, 111, 0.5);
 }
 
 .food-items img {
@@ -55,15 +55,12 @@ a {
   font-size: 15px;
   line-height: 28px;
   font-weight: 600;
+  padding: 5px;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
-}
-
-td {
-  padding: 5px;
 }
 
 td:last-child {
@@ -74,21 +71,10 @@ td:first-child {
 }
 
 /*Hamburger Menu*/
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 h2 {
   vertical-align: center;
   text-align: center;
-}
-
-html,
-body {
-  margin: 0;
-  height: 100%;
-}
-
-* {
-  font-family: 'Raleway';
-  box-sizing: border-box;
 }
 
 .top-nav {
@@ -98,12 +84,9 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-
   justify-content: space-between;
-
   background-color: #00baf0;
   background: linear-gradient(to right, #184d47, #609966);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   height: 50px;
   padding: 1em;
