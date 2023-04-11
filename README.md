@@ -1,3 +1,3 @@
 # qrMenu
 
-[Live Site](https://www.google.com)
+[Live Site](https://sage-restaurant.netlify.app/)
